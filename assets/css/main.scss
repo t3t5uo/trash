@@ -5,3 +5,27 @@
 @import 'vendor/normalize';
 
 @import 'base/root';
+
+body{
+    background-image: url(/assets/images/trash.gif);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "trash font";
+    src: url(/assets/fonts/trash.ttf);
+}
+h1.trash { 
+    font-family: "trash font";
+    text-align: center;
+    font-size: 60px;
+}
+
+a.trash {	
+    font-size: 20px;
+    font-family: none;
+}
+
+div.trash {
+	text-align: center;
+}
