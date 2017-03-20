@@ -7,13 +7,13 @@
 @import 'base/root';
 
 body{
-    background-image: url(/assets/images/trash.gif);
+    background-image: url(/trash/assets/images/trash.gif);
     background-size: cover;
 }
 
 @font-face {
     font-family: "trash font";
-    src: url(/assets/fonts/trash.ttf);
+    src: url(/trash/assets/fonts/trash.ttf);
 }
 h1.trash { 
     font-family: "trash font";
